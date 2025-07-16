@@ -15,26 +15,26 @@ attributes:
     name: Phase de la lune
     description: 0 = Pleine lune, 1 = Lune décroissante, 4 = Nouvelle lune, 7 = Lune croissante
   location_x:
-    name: Coordonnées X
-    description: Les coordonnées x d'un joueur ou d'une créature dans le monde
+    name: Coordonnée X
+    description: La coordonnée x d'un joueur ou d'une créature dans le monde
   location_y:
-    name: Coordonnées Y
+    name: Coordonnée Y
     description: La hauteur d'un joueur ou d'une créature dans le monde
   location_z:
-    name: Coordonnées Z
-    description: Les coordonnées z d'un joueur ou d'une créature dans le monde
+    name: Coordonnée Z
+    description: La coordonnée z d'un joueur ou d'une créature dans le monde
   level:
     name: Niveau d'expérience
     description: Le niveau d'expérience d'un joueur
   xp:
-    name: Experience
-    description: Le total de points d'expérience d'un joueur
+    name: Expérience
+    description: Le nombre total de point d'expérience d'un joueur
   mana:
     name: Mana
-    description: Le nombre de mana actuel d'un joueur
+    description: La quantité actuelle de mana d'un joueur
   mana_max:
     name: Mana maximal
-    description: La limite maximale de mana d'un joueur
+    description: La quantité maximale de mana d'un joueur
 commands:
     no_permission: "&cTu n'es pas autorisé à utiliser cette commande."
     in_game: "&cCette commande peut uniquement être utilisée en jeu."
@@ -51,7 +51,7 @@ commands:
           usage: "&cUsage: /mconfig example fetch <example name> <url>"
           unknown: "&cExemple inconnu: &e$example, &cutilise une url pour le récupérer en premier.&r\n&cUsage: /mconfig example fetch <example name> <url>"
           fail: "&cRécupération de l'url &e$url impossible"
-          error: "&cQuelque chose s'est mal passé, regarde les logs pour plus d'infos"
+          error: "&cQuelque chose s'est mal passé, regarde les logs pour plus d'informations"
           wait: "&bPatience, téléchargement en cours &b$url..."
           success: "&bExemple &2$example téléchargé&f\n&rUtilise &6/mconfig example add $example&f pour l'ajouter à la configuration actuelle\n&rUse &6/mconfig example set $example&f pour l'utiliser comme configuration générale"
           backup: "&eExemple existant, &3sauvegarde dans &f$backup"
@@ -708,10 +708,10 @@ wand:
       &8| &7> &6$cycle_hotbar &fpour changer entre tes barres de raccourcis
     inventory_instructions: |-
       &8| &7> &6$toggle &fpour ouvrir / fermer &el'inventaire de sorts
-      &8| &7> &6Ouvre ton inventaire (E) &fpour gérer le raccourcis des sorts
+      &8| &7> &6Ouvre ton inventaire (E) &fpour gérer les raccourcis des sorts
       &8| &7> &fUtilises &6le numéro du slot &fpour sélectionner le sort
     chest_instructions: |-
-      &8| &7> &6$toggle &fpour ouvrir / fermer &el'inventaire de sorts
+      &8| &7> &6$toggle &fpour ouvrir / fermer &el'inventaire des sorts
       &8| &7> &6Clique &fsur un sort pour l'activer
     skills_instructions: |-
       &8| &7> &6$toggle &fpour ouvrir / fermer &el'inventaire de sorts
