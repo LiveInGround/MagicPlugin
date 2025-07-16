@@ -499,7 +499,7 @@ wand:
     empty_slot: " &8- &7(&2slot &6$slot vide&7)"
     slotted: " &8- &7$slotted"
     item_attributes:
-      GENERIC_ATTACK_DAMAGE: "Dégât d'attaque"
+      GENERIC_ATTACK_DAMAGE: "Dégâts d'attaque"
     prefixes:
       protection: "&2"
       strength: "&2"
@@ -574,8 +574,8 @@ wand:
       protection: Protection $roman
       protection_explosions: Protection contre les explosions $roman
       blast_protection: Protection contre les explosions $roman
-      protection_fall: Protection contre les chutes $roman
-      feather_falling: Protection contre les chutes $roman
+      protection_fall: Chute amortie $roman
+      feather_falling: Chute amortie $roman
       protection_fire: Protection contre le feu $roman
       fire_protection: Protection contre le feu $roman
       protection_projectile: Protection contre les projectiles $roman
@@ -586,8 +586,8 @@ wand:
       sweeping: Affilage $roman
       thorns: Épines $roman
       vanishing_curse: Malédiction de disparition
-      water_worker: Travailleur de l'eau
-      aqua_affinity: Travailleur de l'eau
+      water_worker: Afinité aquatique
+      aqua_affinity: Afinité aquatique
     potion_effect: "&b$effect $roman"
     super_powered: "&3Superpuissant"
     super_protected: "&3Invulnérable"
@@ -596,13 +596,13 @@ wand:
     active_costs_description: "Coût : $description par seconde"
     range_description: "&9Portée: &6$range &9mètres"
     owner_description: "&2&oBaguette de $name"
-    bound_description: "&3&oLié à $name"
+    bound_description: "&3&oLiée à $name"
     unmodifiable: Cette baguette ne peut pas être modifiée
     player_unmodifiable: La baguette de $name ne peut pas être modifiée
     bound_to_other: Cette baguette ne t'est pas liée
     bound: Cette baguette est liée à $name
     spell_added: "Tu as appris le sort &r&6$name"
-    brush_added: "Tu as appris la brosse &r&7$name"
+    brush_added: "Tu as obtenu la brosse &r&7$name"
     player_spell_upgraded: "Le sort &r&6$name de $players et été amélioré au niveau &3$level"
     spell_upgraded: "Le sort &r&6$name &d&oa été amélioré au niveau &3$level"
     spell_override_upgraded: "Le sort &r&6$name &d&oa été amélioré"
@@ -615,10 +615,10 @@ wand:
     player_spells_levelled: "Amélioration au niveau $count du sort $name"
     player_spells_not_levelled: "Aucune amélioration pour le sort $name"
     spells_levelled: "Amélioration au niveau $count des sorts"
-    spells_not_levelled: "Aucune amélioration des sorts"
+    spells_not_levelled: "Aucune amélioration de sorts"
     no_wand: Tu dois tenir une baguette
     player_no_wand: $name n'a pas de baguette en main
-    no_item: Tu dois tenir un objet
+    no_item: Tu dois tenir un objet dans ta main principale
     player_no_item: $name n'a pas d'objet en main
     reorganized: "$wand &bréorganisée"
     player_reorganized: La baguette de $name a été réorganisée
@@ -674,7 +674,7 @@ wand:
     wand_instructions_header: |-
       &8 ----------------------------------------------------
       &8|
-      &8|   &b&lWAND INSTRUCTIONS
+      &8|   &b&lINSTRUCTIONS DE LA BAGUETTE
       &8|
     wand_instructions_footer: |-
       &8|
